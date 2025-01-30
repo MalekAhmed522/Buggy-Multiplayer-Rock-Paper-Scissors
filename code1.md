@@ -1,0 +1,1 @@
+The issue is that you're calling .lower() on the input prompt string itself. .lower() is meant to be used on the input the player provides, not on the prompt string. You need to modify it so that the input gets converted to lowercase, not the prompt.
